@@ -1,6 +1,6 @@
 # thiago-perfil
- perfil para desenvolvimeto pessoal
+ Perfil para desenvolvimeto pessoal
 
 Estou aprendendo a criar sites
 
-<a href="">
+<a href="" target="_blank">
