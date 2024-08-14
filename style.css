@@ -20,7 +20,7 @@ header {
   background-color:#000000 ;
 }
 
-div {
+.profile {
   display: flex;
   width: 100vw;
   height: 43vh;
@@ -32,9 +32,8 @@ img.profile-photo {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  aspect-ratio: 1/1;
   border: 7px solid #1093cb;
-  display: block;
-  margin: auto;
 }
 
 /*text navgation*/
@@ -92,20 +91,21 @@ h3 {
   font-family: "Poppins", sans-serif;
   padding: 12px;
   color: #000000;
-  font-size: 34px;
+  font-size: 3em;
 }
 
 .pj {
   font-family: "Poppins", sans-serif;
   height: 54px;
-  font-size: 28px;
+  font-size: 2em;
   margin: 9px;
 }
 
 .work {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  font-size: 20px;
+  padding: 0px;
+  font-size: 24px;
   color: #000000;
   margin: 9px;
 }
