@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   overflow-x: hidden;
 }
@@ -36,12 +37,19 @@ img.profile-photo {
   border: 7px solid #1093cb;
 }
 
-/*text navgation*/
+/*menu*/
 
-navegation:hover {
-  text-decoration: underline;
-  color: white;
+
+.container {
+  background-color:#212121 ;
+  height: 100px;
+  width: auto;
+  display: flex;
+  gap:140px;
+  
 }
+
+/*text navegation*/
 
 a {
   font-family: "Poppins", sans-serif;
@@ -59,18 +67,10 @@ a {
   font-size: 14px;
 }
 
-
-
-/*menu*/
-nav {
-  height: 100px;
-  width: auto;
-  display: flex;
-  gap:140px;
-  background-color:#212121 ;
+nav a:hover {
+  text-decoration: underline;
+  color: white;
 }
-
-
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -104,19 +104,19 @@ h3 {
 .work {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  padding: 0px;
+  padding: 12px;
   font-size: 24px;
   color: #000000;
-  margin: 9px;
-}
 
-a:hover {
-  color: #58658c;
-  text-decoration: underline;
-} 
+}
 
 main {
   padding-bottom: 100px;
+}
+
+main a:hover {
+  color: #58658c;
+  text-decoration: underline;
 }
 
 footer {
