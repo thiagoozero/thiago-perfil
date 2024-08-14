@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300&display=swap');
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+div {
+  display: flex;
+  width: 100vw;
+  height: 43vh;
+  justify-content: center;
+  align-items: center;
+}
+
+img.profile-photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 7px solid #1093cb;
+  display: block;
+  margin: auto;
+}
+
+header {
+  height: 449px;
+  width: auto;
+  background-color:#000000 ;
+}
+
+/*text navgation*/
+
+navegation:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a.color-primary {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  padding: 41px;
+  color: #e54b27;
+  font-size: 14px;
+}
+
+a.color-secundary {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  padding: 41px;
+  color:#1093cb ;
+  font-size: 14px;
+}
+
+
+
+/*menu*/
+nav {
+  height: 100px;
+  width: auto;
+  display: flex;
+  gap:140px;
+  background-color:#212121 ;
+}
+
+
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-top: 17px;
+  color: #192252 ;
+}
+
+h2 {
+  color:#58658c ;
+  font-size: 21px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  padding: 12px;
+  color: #000000;
+  font-size: 34px;
+}
+
+p.pj {
+  font-family: "Poppins", sans-serif;
+  height: 54px;
+  font-size: 28px;
+  margin: 9px;
+}
+
+a.work {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  margin: 9px;
+}
+
+a:hover {
+  color: #58658c;
+  text-decoration: underline;
+} 
+
+main {
+  padding-bottom: 100px;
+}
+
+footer {
+  font-family: "Inter", sans-serif;
+  border-radius: 0px;
+  margin: auto;
+  width: 100%;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+}
