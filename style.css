@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300&display=swap');
-
-
 
 
 * {
@@ -20,6 +11,13 @@
 
 body {
   overflow-x: hidden;
+}
+
+
+header {
+  padding: auto;
+  width: auto;
+  background-color:#000000 ;
 }
 
 div {
@@ -39,12 +37,6 @@ img.profile-photo {
   margin: auto;
 }
 
-header {
-  height: 449px;
-  width: auto;
-  background-color:#000000 ;
-}
-
 /*text navgation*/
 
 navegation:hover {
@@ -52,7 +44,7 @@ navegation:hover {
   color: white;
 }
 
-a.color-primary {
+a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 41px;
@@ -60,7 +52,7 @@ a.color-primary {
   font-size: 14px;
 }
 
-a.color-secundary {
+.color-secundary {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 41px;
@@ -103,14 +95,14 @@ h3 {
   font-size: 34px;
 }
 
-p.pj {
+.pj {
   font-family: "Poppins", sans-serif;
   height: 54px;
   font-size: 28px;
   margin: 9px;
 }
 
-a.work {
+.work {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-size: 20px;
@@ -129,8 +121,6 @@ main {
 
 footer {
   font-family: "Inter", sans-serif;
-  margin: auto;
-  width: 100%;
   padding: 8px;
   color: white;
   text-align: center;
