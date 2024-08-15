@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
@@ -10,8 +9,13 @@
 }
 
 
+a {
+  text-decoration: none;
+}
+
 body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -29,7 +33,7 @@ header {
   align-items: center;
 }
 
-img.profile-photo {
+.profile-photo {
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -38,7 +42,6 @@ img.profile-photo {
 }
 
 /*menu*/
-
 
 .container {
   background-color:#212121 ;
@@ -52,7 +55,6 @@ img.profile-photo {
 /*text navegation*/
 
 a {
-  font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 41px;
   color: #e54b27;
@@ -60,7 +62,6 @@ a {
 }
 
 .color-secundary {
-  font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 41px;
   color:#1093cb ;
@@ -73,7 +74,6 @@ nav a:hover {
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
   padding-bottom: 15px;
   text-align: center;
   margin-top: 17px;
@@ -88,21 +88,18 @@ h2 {
 }
 
 h3 {
-  font-family: "Poppins", sans-serif;
   padding: 12px;
   color: #000000;
   font-size: 3em;
 }
 
 .pj {
-  font-family: "Poppins", sans-serif;
-  height: 54px;
+   height: 54px;
   font-size: 2em;
   margin: 9px;
 }
 
 .work {
-  font-family: "Poppins", sans-serif;
   text-decoration: none;
   padding: 12px;
   font-size: 24px;
@@ -120,7 +117,6 @@ main a:hover {
 }
 
 footer {
-  font-family: "Inter", sans-serif;
   padding: 8px;
   color: white;
   text-align: center;
